@@ -324,6 +324,8 @@ namespace scaleGeom {
 	float crossProduct2D(Vector2f v1, Vector2f v2);
 	//Cross Product in 3D
 	Vector3f crossProduct3D(Vector3f v1, Vector3f v2);
+	//Scalar Triple Product
+	float scalarTripleProduct(Vector3f v1, Vector3f v2, Vector3f v3);
 
 
 

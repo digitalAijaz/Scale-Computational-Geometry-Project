@@ -4,6 +4,7 @@ int main() {
     // Create two 3D vectors of type int
     scaleGeom::Vector<float> vec1(5.1, 6.2, 8.3);
     scaleGeom::Vector<float> vec2(4.2, 5.1, 6.5);
+    scaleGeom::Vector<float> vecA(9.1, 3.2, 4.3);
 /*
     // Test addition
     auto vec3 = vec1 + vec2;
@@ -63,6 +64,10 @@ int main() {
     std::cout<<"Normalized vec1 is "<<vec1<<std::endl;
 
 */
+
+    //print scalar triple product of vec1, vec2, and vecA
+    auto result4 = scaleGeom::scalarTripleProduct(vec1, vec2, vecA);
+    std::cout<<"scalar triple product of vec1, vec2, and vecA is "<<result4<<std::endl;
 
     return 0;
 }
