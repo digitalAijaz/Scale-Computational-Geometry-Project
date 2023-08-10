@@ -1,3 +1,35 @@
+/*
+	Vector.h - Computational Geometry Vector Utilities
+
+	Overview:
+	The Vector.h header file is a core component of the computational geometry suite, providing
+	robust support for vector operations in N-dimensional spaces. It is designed to be flexible,
+	accommodating various data types and dimensions, making it a versatile tool for various
+	geometric computations.
+
+	Features:
+	- Representation of vectors in 2D, 3D, and N-dimensional spaces.
+	- Support for different coordinate data types, including integer and floating-point types.
+	- Overloaded operators facilitating vector arithmetic and comparisons.
+	- Geometric query functions like dot product and cross product.
+	- Utility functions such as normalization and magnitude computation.
+	- Strong encapsulation using the scaleGeom namespace to avoid naming conflicts.
+	- Forward declarations and friend functions to maintain a clean and modular structure.
+
+	Dependencies:
+	- Requires the "Core.h" for certain utility functions and definitions.
+
+	Usage:
+	The utility can be directly included in computational geometry projects, and the vectors can be
+	instantiated using the defined typedefs like Vector2f and Vector3f or using the generic Vector template.
+
+	Author: Aijaz, Scale Lab IISc
+	Date: 10/08/2022
+	Version: 1.0
+
+*/
+
+
 #pragma once
 
 #include <iostream>
