@@ -13,5 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{63c2fd2d-4c33-457a-b332-1f94a66da5a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Base">
+      <UniqueIdentifier>{381e70a5-db23-4a03-aacb-0b48115dee49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Primitives">
+      <UniqueIdentifier>{e509daf6-5e3b-4e24-a5b1-f289c5b721d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector.h">
+      <Filter>Core\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Core\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
